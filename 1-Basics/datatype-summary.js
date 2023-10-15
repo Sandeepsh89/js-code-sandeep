@@ -29,4 +29,24 @@ const myFunction = function (){
     console.log("Hellow World");
 }
 
-console.log(typeof BigNumber);
+// console.log(typeof BigNumber);
+
+
+// +++++++++++++++++++++++++++++++++++++++++
+// Stack (Primitive) , Heap (Non-Primitive)
+
+let myYotubeName = "sandeepsharma.com"
+let AnotherName = "myYotubeName"
+AnotherName = "chaiaurcode"
+
+console.log(AnotherName);
+console.log(myYotubeName);
+
+let userOne = {
+    email: "sandy@gmail.com",
+    upi: "asdk@ybl"
+}
+let userTwo = userOne
+userTwo.email = "Sandeep@yahoo.com"
+console.log(userTwo.email);
+console.log(userOne.email);
